@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #4CAF50;
+}
+
+.game-area {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#tetris {
+    border: 2px solid #4CAF50;
+    background-color: #111;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 150px;
+}
+
+.score, .level, .lines, .next {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.score h3, .level h3, .lines h3, .next h3 {
+    margin: 0 0 10px 0;
+    color: #4CAF50;
+    font-size: 1rem;
+}
+
+.score div, .level div, .lines div {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#next {
+    border: 1px solid #4CAF50;
+    background-color: #111;
+}
+
+.controls {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controls p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.controls p:first-child {
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}

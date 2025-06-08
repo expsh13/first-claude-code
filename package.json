@@ -1,0 +1,21 @@
+{
+  "name": "tetris-game",
+  "version": "1.0.0",
+  "description": "TypeScript Tetris Game",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "serve": "live-server .",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.28",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.30",
+    "live-server": "^1.2.2",
+    "typescript": "^5.0.0"
+  }
+}
